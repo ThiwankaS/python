@@ -12,5 +12,5 @@ if(name.lower() == "exit"):
     print("ok, exiting the program!")
 # is user input aything other than 'Exit' will consider as a valid name
 else:
-    name = "Mr." + name.capitalize()
-    print ("Hello, ", name, end="\n")
+    name = "Mr." + name
+    print ("Hello, {}".format(name.capitalize()), end="\n")
